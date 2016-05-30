@@ -1,0 +1,18 @@
+aijinkela = {
+	is_listed = no
+	
+	cost = {
+	}
+
+	required_resources = {
+	}
+
+	produced_resources = {
+		jinkela = 999
+	}
+	
+	upgrades = {
+	}
+
+	ai_special_building = yes
+}

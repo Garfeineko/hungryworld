@@ -1,0 +1,22 @@
+namespace = hws
+
+
+country_event = {
+	id = hwstart.1
+	title = hwstart.1.title
+	desc = hwstart.1.desc
+	picture = GFX_evt_star_chart
+	show_sound = event_ship_thrusters
+
+	is_triggered_only = yes
+	
+	trigger = {
+		#is_multiplayer = no
+		is_ai = no
+	}
+	
+    option = {
+        name = hwstart.1.a
+		
+    }	
+}

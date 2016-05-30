@@ -1,0 +1,6 @@
+jinkela = {
+	accumulative = yes
+	AI_category = strategic_resource
+	is_rare = yes
+	sector_ignore_cost = yes
+}

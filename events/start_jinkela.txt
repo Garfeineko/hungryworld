@@ -1,0 +1,28 @@
+country_event = {
+    id = jinkelaismine
+    title = jinkelaismine.title
+    desc = jinkelaismine.desc
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_ai = yes
+    } 
+
+	immediate = {		
+		give_technology = jinkela1
+		give_technology = jinkela2
+		give_technology = jinkela3
+		give_technology = jinkela4
+		give_technology = jinkela5
+
+		add_energy = 500
+		add_minerals = 500
+
+		capital_scope = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "aijinkela"
+			}
+		}
+	}
+}

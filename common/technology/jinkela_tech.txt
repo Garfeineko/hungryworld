@@ -1,0 +1,258 @@
+##################
+### TECH COSTS ###
+##################
+#If you change any of these, use replace in files so the values are the same across all files
+
+@tier1cost1 = 240
+@tier1cost2 = 360
+@tier1cost3 = 480
+@tier1cost4 = 600
+
+@tier2cost1 = 900
+@tier2cost2 = 1200
+@tier2cost3 = 1500
+@tier2cost4 = 1800
+
+@tier3cost1 = 2320
+@tier3cost2 = 2840
+@tier3cost3 = 3360
+@tier3cost4 = 3880
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+
+jinkela1 = {
+	cost = 0
+	area = society
+	tier = 0
+	category = { biology }
+	start_tech = yes		
+}
+
+
+jinkela2 = {
+	cost = @tier2cost3
+	area = society
+	tier = 2
+	category = { biology }
+	prerequisites = { "jinkela1" }
+	prerequisites = { "tech_biolab_1" }
+	weight = @tier2weight1
+	ai_update_type = all
+	
+	modifier = {
+		pop_happiness = 0.01
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 100 #farms are good
+		modifier = {
+			factor = 100
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 100
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 100
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+
+jinkela3 = {
+	cost = @tier3cost1
+	area = society
+	tier = 2
+	category = { biology }
+	prerequisites = { "jinkela2" }
+	prerequisites = { "tech_biolab_2" }
+	weight = @tier2weight4
+	ai_update_type = all
+	
+	modifier = {
+		tile_resource_food_mult = 0.02
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 100 #farms are good
+		modifier = {
+			factor = 100
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 100
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 100
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+jinkela4 = {
+	cost = @tier3cost3
+	area = society
+	tier = 3
+	category = { biology }
+	prerequisites = { "jinkela3" }
+	prerequisites = { "tech_gene_crops" }
+	prerequisites = { "tech_biolab_3" }
+	weight = @tier3weight2
+	ai_update_type = all
+	
+	modifier = {
+		pop_happiness = 0.02
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 100 #farms are good
+		modifier = {
+			factor = 100
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 100
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 100
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+jinkela5 = {
+	cost = 4444
+	area = society
+	tier = 3
+	category = { biology }
+	prerequisites = { "jinkela4" }
+	prerequisites = { "tech_nano_vitality_crops" }
+	weight = @tier3weight4
+	ai_update_type = all
+	
+	modifier = {
+		pop_happiness = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 100 #farms are good
+		modifier = {
+			factor = 100
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 100
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 100
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
