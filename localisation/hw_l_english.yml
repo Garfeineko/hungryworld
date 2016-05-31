@@ -6,44 +6,44 @@
  ############################
  
 #Resource
-jinkela: "金坷垃"
-jinkela_desc: "掺了§E§H金坷垃§!(£jinkela )，不流失，不蒸发，零浪费！我们国家的§E§H食物§!(£food )再也不用向外星人进口啦！"
+jinkela: "Luxury Food"
+jinkela_desc: "§E§HLuxury Food§!(£jinkela )is made by §E§HFood§!(£food ) and provide for the people who works on the higher facilities. It's not luxury as far as the people on the planet called earth is concerned actually ,but you shouldn't need more on this damn world."
  
 #spacebase module
-sm_jinkela_out1: "§W坷垃作坊§!"
-sm_jinkela_out2: "§B坷垃工厂§!"
-sm_jinkela_out3: "§M坷垃招商局§!"
-sm_jinkela_out4: "§R坷垃原子研究所§!"
-sm_jinkela_out5: "§S圣地亚哥出口集团§!"
+sm_jinkela_out1: "§WFood workshop§!"
+sm_jinkela_out2: "§BFood factory§!"
+sm_jinkela_out3: "§MFood mill§!"
+sm_jinkela_out4: "§RFood plant§!"
+sm_jinkela_out5: "§SFood Production Group§!"
 
-sm_jinkela_in1: "§W坷垃小卖部§!"
-sm_jinkela_in2: "§B坷垃商城§!"
-sm_jinkela_in3: "§M坷垃广场§!"
-sm_jinkela_in4: "§R坷垃氮磷钾商圈§!"
-sm_jinkela_in5: "§S圣地亚哥核武中心§!"
+sm_jinkela_in1: "§WFood shop§!"
+sm_jinkela_in2: "§BFood store§!"
+sm_jinkela_in3: "§MFood market§!"
+sm_jinkela_in4: "§RFood supermarket§!"
+sm_jinkela_in5: "§SFood mall§!"
 
 
 #Tech
-jinkela1: "抢坷垃要跑得快"
-jinkela1_desc: "§E§H金坷垃§!(£jinkela )！金坷垃！我们的！我们的！"
+jinkela2: "Food need difference"
+jinkela2_desc: "§E§HLuxury Food§!(£jinkela ) --The greatest inventions in 2200s"
  
-jinkela2: "钦点坷垃"
-jinkela2_desc: "我要§E§H金坷垃§!(£jinkela )！非洲农业不发达，必须要有金坷垃！日本资源太缺乏，必须要有金坷垃！"
+jinkela3: "Luxury Food is not enough!"
+jinkela3_desc: "We need more §E§HLuxury Foods§!(£jinkela ) to support our economy！"
 
-jinkela3: "掺坷垃也要按照基本法"
-jinkela3_desc: "掺了§E§H金坷垃§!(£jinkela )，不流失，不蒸发，零浪费！能吸收两米下的氮磷钾！"
+jinkela4: "Extraterrestrial food is horrible!"
+jinkela4_desc: "The need §E§HLuxury Food§!(£jinkela ) made in   wherever they go."
 
-jinkela4: "谈笑风生"
-jinkela4_desc: "世界肥料都涨价，肥料掺了§E§H金坷垃§!(£jinkela )，一袋能顶两袋撒！日本的粮食再也不向爸爸进口啦~"
+jinkela1: "Barren World..."
+jinkela1_desc: "We can FTL to anywhere on this universe,but can't feed people on our planet."
 
-jinkela5: "大新闻"
-jinkela5_desc: "§E§H金坷垃§!(£jinkela )在我国最高机密中与核武器并列第一！"
+jinkela5: "Hungry is past."
+jinkela5_desc: "The future will be better tomorrow. - Dan Quayle"
 
 #Building
-aijinkela: "四维坷垃传送器"
-aijinkela_desc: "置放在外星文明首都的四维传送器，专门给当地人民提供金坷垃。然而传送的对面似乎是高维生物，或许听从当年的消息拆毁这幢建筑、避免现在与他们打交道是最明智的选择。"
+aijinkela: "AI bouns"
+aijinkela_desc: "located in capital of alien civilization.It seem that made by a high dimensinal civilization to be a gift,but I dont think that it's a gift for us.Destory it ASAP!"
 
 #Event
-hwstart.1.title: "欢迎来到饥饿的世界"
-hwstart.1.desc: "传感器传来的消息证实这是一个缺乏食物的宇宙，但却不能阻挡人们探索外太空的好奇心。\n\n你可以在你的空间站中修建§E§H金坷垃§!(£jinkela )生产模块来维持高级建筑的运转和跨星球食物运输。高级的金坷垃生产模块则需要进一步研究生物科技。\n\n此外，我们收到了宇宙的某些星球上存在不明的四维金坷垃传送装置的消息。但为了你人民的安全，请在占领后立即拆毁、以防止高维生物的降维打击。\n\n祝你好运！"
-hwstart.1.a: "真是个操蛋的消息。"
+hwstart.1.title: "Welcome to BARREN WORLD!"
+hwstart.1.desc: "Humanity's most fundamental relationship is with what we eat.(Chinese proverbn) \nWe can't feed every people before we can go to another planet.We won't let this shit happen again! \nTIPS:Time is everything."
+hwstart.1.a: "What a damn message!"
